@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"go-practice/hello"
 	"os"
+	"go-practice/st"
 )
 
 func main() {
@@ -43,5 +44,7 @@ func main() {
 	}
 
 	fmt.Println("The average is ", sum/float64(n))
+
+	fmt.Println(st.Hello())
 
 }
