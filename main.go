@@ -10,6 +10,7 @@ import (
 func main() {
 	// fmt.Println("Hello, World!")
 
+	// the first arg i.e 0 will be the name of program then the args starting with 1 onwards will be the args that we pass while running the program
 	fmt.Println(hello.Say(os.Args[1:]))
 
 	a := 2
