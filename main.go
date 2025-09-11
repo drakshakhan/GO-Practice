@@ -50,4 +50,6 @@ func main() {
 
 	fmt.Println(datatypes.ArrProg())
 
+	datatypes.SliceProg()
+
 }

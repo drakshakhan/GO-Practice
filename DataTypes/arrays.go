@@ -3,6 +3,7 @@ package datatypes
 import "fmt"
 
 func ArrProg() [4]int { // uppercase func names will be exported and small case will be imported
+	// arrays are of fixed size
 	var a [3]int
 	b := [3]int{2,8,7}
 	var c = [...]int{1,3,1}
