@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"go-practice/hello"
-	"go-practice/st"
+	"go-practice/DataTypes"
 	"os"
 )
 
@@ -46,6 +46,8 @@ func main() {
 
 	fmt.Println("The average is ", sum/float64(n))
 
-	fmt.Println(st.Str())
+	fmt.Println(datatypes.Str())
+
+	fmt.Println(datatypes.ArrProg())
 
 }
