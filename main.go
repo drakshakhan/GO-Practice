@@ -52,4 +52,6 @@ func main() {
 
 	datatypes.SliceProg()
 
+	datatypes.MapsProg()
+
 }
