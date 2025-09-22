@@ -54,4 +54,6 @@ func main() {
 
 	datatypes.MapsProg()
 
+	datatypes.Prog()
+
 }
